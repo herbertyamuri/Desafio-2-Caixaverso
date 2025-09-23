@@ -1,0 +1,16 @@
+{
+  "name": "projeto-final-back",
+  "version": "1.0.0",
+  "description": "CRUD de usuário com Express, armazenamento em JSON local, autenticação JWT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.1"
+  }
+}
