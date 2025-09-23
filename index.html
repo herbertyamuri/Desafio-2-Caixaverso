@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bem-vindo(a)!</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Acesse sua conta</h1>
+      <p>Para continuar, por favor, insira seu e-mail.</p>
+      <form id="form-email">
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="seuemail@dominio.com"
+          />
+        </div>
+        <button type="submit" id="btn-avancar">Avançar</button>
+      </form>
+      <div id="loader" class="loader" style="display: none"></div>
+    </div>
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
